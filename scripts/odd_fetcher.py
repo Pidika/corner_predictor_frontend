@@ -1,9 +1,7 @@
-
 import os
 import requests
 from dotenv import load_dotenv
-# FIX: Use a relative import to correctly find the mapper within the package
-from .team_name_mapper import normalize_team_name
+from team_name_mapper import normalize_team_name
 import json
 
 load_dotenv()
