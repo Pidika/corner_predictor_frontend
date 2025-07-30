@@ -27,16 +27,16 @@ jobs:
       - name: Fetch Odds and Save to JSON
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-          # This line is the key fix: It tells Python where to find your scripts
           PYTHONPATH: ${{ github.workspace }}
-        # This command runs the script directly
+        working-directory: ${{ github.workspace }}
         run: python scripts/odd_fetcher.py
 
       - name: Commit and push if there are changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # FIX: Configure git to use the Personal Access Token for authentication
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
           git add public/upcoming_matches.json
           git diff --staged --quiet || (git commit -m "Update daily odds data" && git push)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+
