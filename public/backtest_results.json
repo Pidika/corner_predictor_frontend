@@ -1,0 +1,266 @@
+{
+    "summary": {
+        "totalMatchesAnalyzed": 10672,
+        "valueBetsFound": 10793,
+        "betsWon": 6566,
+        "betsLost": 4227,
+        "winRate": "60.84%",
+        "totalProfit": "2650.50",
+        "roi": "24.56%"
+    },
+    "chartData": [
+        {
+            "month": "2019-08",
+            "cumulative_profit": 35.100000000000016
+        },
+        {
+            "month": "2019-09",
+            "cumulative_profit": 133.54
+        },
+        {
+            "month": "2019-10",
+            "cumulative_profit": 188.94999999999987
+        },
+        {
+            "month": "2019-11",
+            "cumulative_profit": 270.37999999999954
+        },
+        {
+            "month": "2019-12",
+            "cumulative_profit": 310.8099999999999
+        },
+        {
+            "month": "2020-01",
+            "cumulative_profit": 348.6000000000001
+        },
+        {
+            "month": "2020-02",
+            "cumulative_profit": 435.87999999999994
+        },
+        {
+            "month": "2020-03",
+            "cumulative_profit": 460.4500000000002
+        },
+    
+        {
+            "month": "2020-05",
+            "cumulative_profit": 466.3500000000001
+        },
+        {
+            "month": "2020-06",
+            "cumulative_profit": 534.1700000000003
+        },
+        {
+            "month": "2020-07",
+            "cumulative_profit": 565.0400000000005
+        },
+        {
+            "month": "2020-08",
+            "cumulative_profit": 565.4300000000009
+        },
+        {
+            "month": "2020-09",
+            "cumulative_profit": 597.9500000000007
+        },
+        {
+            "month": "2020-10",
+            "cumulative_profit": 604.4600000000008
+        },
+        {
+            "month": "2020-11",
+            "cumulative_profit": 644.0100000000014
+        },
+        {
+            "month": "2020-12",
+            "cumulative_profit": 699.0400000000019
+        },
+        {
+            "month": "2021-01",
+            "cumulative_profit": 720.0800000000017
+        },
+        {
+            "month": "2021-02",
+            "cumulative_profit": 770.7600000000011
+        },
+        {
+            "month": "2021-03",
+            "cumulative_profit": 812.2000000000018
+        },
+        {
+            "month": "2021-04",
+            "cumulative_profit": 889.8100000000023
+        },
+        {
+            "month": "2021-05",
+            "cumulative_profit": 945.2100000000024
+        },
+ 
+        {
+            "month": "2021-08",
+            "cumulative_profit": 985.7500000000024
+        },
+        {
+            "month": "2021-09",
+            "cumulative_profit": 1058.3400000000024
+        },
+        {
+            "month": "2021-10",
+            "cumulative_profit": 1115.4800000000027
+        },
+        {
+            "month": "2021-11",
+            "cumulative_profit": 1149.1600000000035
+        },
+        {
+            "month": "2021-12",
+            "cumulative_profit": 1217.9800000000055
+        },
+        {
+            "month": "2022-01",
+            "cumulative_profit": 1277.6600000000058
+        },
+        {
+            "month": "2022-02",
+            "cumulative_profit": 1375.1600000000049
+        },
+        {
+            "month": "2022-03",
+            "cumulative_profit": 1409.4400000000048
+        },
+        {
+            "month": "2022-04",
+            "cumulative_profit": 1460.4600000000048
+        },
+        {
+            "month": "2022-05",
+            "cumulative_profit": 1508.0900000000051
+        },
+   
+        {
+            "month": "2022-08",
+            "cumulative_profit": 1535.0400000000052
+        },
+        {
+            "month": "2022-09",
+            "cumulative_profit": 1577.0600000000054
+        },
+        {
+            "month": "2022-10",
+            "cumulative_profit": 1641.7000000000062
+        },
+        {
+            "month": "2022-11",
+            "cumulative_profit": 1637.190000000006
+        },
+        {
+            "month": "2022-12",
+            "cumulative_profit": 1637.920000000006
+        },
+        {
+            "month": "2023-01",
+            "cumulative_profit": 1638.5600000000054
+        },
+        {
+            "month": "2023-02",
+            "cumulative_profit": 1704.0400000000052
+        },
+        {
+            "month": "2023-03",
+            "cumulative_profit": 1737.8400000000051
+        },
+        {
+            "month": "2023-04",
+            "cumulative_profit": 1810.680000000006
+        },
+        {
+            "month": "2023-05",
+            "cumulative_profit": 1866.1800000000062
+        },
+        {
+            "month": "2023-06",
+            "cumulative_profit": 1865.6900000000066
+        },
+      
+        {
+            "month": "2023-08",
+            "cumulative_profit": 1916.4100000000071
+        },
+        {
+            "month": "2023-09",
+            "cumulative_profit": 1930.5900000000074
+        },
+        {
+            "month": "2023-10",
+            "cumulative_profit": 1974.2800000000063
+        },
+        {
+            "month": "2023-11",
+            "cumulative_profit": 1998.4500000000064
+        },
+        {
+            "month": "2023-12",
+            "cumulative_profit": 2046.0200000000061
+        },
+        {
+            "month": "2024-01",
+            "cumulative_profit": 2087.490000000006
+        },
+        {
+            "month": "2024-02",
+            "cumulative_profit": 2150.5900000000024
+        },
+        {
+            "month": "2024-03",
+            "cumulative_profit": 2238.270000000003
+        },
+        {
+            "month": "2024-04",
+            "cumulative_profit": 2278.0600000000018
+        },
+        {
+            "month": "2024-05",
+            "cumulative_profit": 2294.4800000000014
+        },
+    
+        {
+            "month": "2024-08",
+            "cumulative_profit": 2335.7600000000034
+        },
+        {
+            "month": "2024-09",
+            "cumulative_profit": 2377.5700000000047
+        },
+        {
+            "month": "2024-10",
+            "cumulative_profit": 2433.420000000006
+        },
+        {
+            "month": "2024-11",
+            "cumulative_profit": 2462.810000000003
+        },
+        {
+            "month": "2024-12",
+            "cumulative_profit": 2480.0300000000034
+        },
+        {
+            "month": "2025-01",
+            "cumulative_profit": 2525.4900000000034
+        },
+        {
+            "month": "2025-02",
+            "cumulative_profit": 2567.7700000000004
+        },
+        {
+            "month": "2025-03",
+            "cumulative_profit": 2572.3999999999996
+        },
+        {
+            "month": "2025-04",
+            "cumulative_profit": 2616.0700000000033
+        },
+        {
+            "month": "2025-05",
+            "cumulative_profit": 2650.500000000003
+        }
+    ]
+}
