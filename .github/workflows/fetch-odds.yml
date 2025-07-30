@@ -1,9 +1,10 @@
-
 name: Fetch Daily Odds
 
 on:
-  schedule: 
+  schedule:
+    # Runs at 00:05 UTC every day
     - cron: '5 0 * * *'
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -26,7 +27,10 @@ jobs:
       - name: Fetch Odds and Save to JSON
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python -m scripts.odds_fetcher
+          # This line is the key fix: It tells Python where to find your scripts
+          PYTHONPATH: ${{ github.workspace }}
+        # This command runs the script directly
+        run: python scripts/odds_fetcher.py
 
       - name: Commit and push if there are changes
         run: |
