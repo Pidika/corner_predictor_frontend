@@ -271,7 +271,7 @@ const PredictionHub = () => {
     setPredictions([]) // Clear old predictions when fetching new matches
     setMatches([])
     try {
-      const response = await fetch('https://corner-predictor-api.onrender.com/api/upcoming-matches')
+      const response = await fetch('/upcoming_matches.json') 
       const data = await response.json()
       if (!response.ok)
         throw new Error(data.error || 'Failed to fetch matches.')
