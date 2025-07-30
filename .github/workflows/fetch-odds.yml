@@ -1,0 +1,40 @@
+name: Fetch Daily Odds
+
+on:
+  schedule:
+    # Runs at 00:05 UTC every day
+    - cron: '5 0 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests python-dotenv
+
+      - name: Fetch Odds and Save to JSON
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        # NOTE: This assumes your odds_fetcher.py and team_name_mapper.py are in a 'scripts' folder
+        run: python scripts/odds_fetcher.py
+
+      - name: Commit and push if there are changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git diff --staged --quiet || git commit -m "Update daily odds data" && git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
