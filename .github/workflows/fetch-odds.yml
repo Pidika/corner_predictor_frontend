@@ -2,16 +2,23 @@ name: Fetch Daily Odds
 
 on:
   schedule:
-    - cron: '5 0 * * *'  # Every day at 00:05 UTC
+    # Runs at 00:05 UTC every day
+    - cron: '5 0 * * *'
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   fetch-and-commit:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
+        # --- THE DEFINITIVE FIX ---
+        # This tells the checkout action to use your powerful Personal Access Token
+        # instead of the default read-only token. This gives the entire job
+        # the necessary permissions to push back to the repository.
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -27,20 +34,19 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           PYTHONPATH: ${{ github.workspace }}
-        run: python scripts/odd_fetcher.py
+        working-directory: ${{ github.workspace }}
+        run: python scripts/odds_fetcher.py
 
       - name: Commit and push if there are changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-          # Set remote with token authentication
-          git remote set-url origin "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}"
-
+          
+          # We no longer need to set the remote URL, as checkout handled it.
+          
           git add public/upcoming_matches.json
-
-          CHANGES=$(git status --porcelain)
-          if [ -n "$CHANGES" ]; then
+          # Check for changes before committing and pushing
+          if ! git diff --staged --quiet; then
             git commit -m "Update daily odds data"
             git push
           else
