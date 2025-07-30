@@ -30,7 +30,7 @@ jobs:
           # This line is the key fix: It tells Python where to find your scripts
           PYTHONPATH: ${{ github.workspace }}
         # This command runs the script directly
-        run: python scripts/odds_fetcher.py
+        run: python scripts/odd_fetcher.py
 
       - name: Commit and push if there are changes
         run: |
