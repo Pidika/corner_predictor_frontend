@@ -32,11 +32,23 @@ jobs:
         run: python scripts/odd_fetcher.py
 
       - name: Commit and push if there are changes
+        env:
+          # Use the PAT for authentication
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # FIX: Add quotes around the URL to prevent shell parsing errors
-          git remote set-url origin "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}"
+          
+          # FIX: Configure git to use the Personal Access Token safely
+          git remote set-url origin "https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}"
+          
           git add public/upcoming_matches.json
-          git diff --staged --quiet || (git commit -m "Update daily odds data" && git push)
+          # Check for changes before committing and pushing
+          if ! git diff --staged --quiet; then
+            git commit -m "Update daily odds data"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
 
