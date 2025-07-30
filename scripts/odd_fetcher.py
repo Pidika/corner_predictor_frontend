@@ -1,7 +1,9 @@
+
 import os
 import requests
 from dotenv import load_dotenv
-from team_name_mapper import normalize_team_name
+# FIX: Use a relative import to correctly find the mapper within the package
+from .team_name_mapper import normalize_team_name
 import json
 
 load_dotenv()
@@ -10,7 +12,7 @@ load_dotenv()
 ODDS_API_KEY = os.getenv('ODDS_API_KEY')
 if not ODDS_API_KEY:
     print("Error: ODDS_API_KEY not found in environment variables. Cannot fetch odds.")
-    exit()
+    exit(1) # Exit with a non-zero code to fail the action
 
 # The Odds API uses specific keys for each league
 LEAGUE_KEYS = {
