@@ -83,7 +83,7 @@
         "home_team": "Girona",
         "away_team": "Vallecano",
         "league_name": "La Liga",
-        "odd_home": 2.34,
+        "odd_home": 2.38,
         "odd_draw": 3.2,
         "odd_away": 3.2
     },
@@ -92,8 +92,8 @@
         "away_team": "Oviedo",
         "league_name": "La Liga",
         "odd_home": 1.41,
-        "odd_draw": 5.0,
-        "odd_away": 9.35
+        "odd_draw": 4.96,
+        "odd_away": 9.6
     },
     {
         "home_team": "Alaves",
@@ -203,9 +203,9 @@
         "home_team": "Como",
         "away_team": "Lazio",
         "league_name": "Serie A",
-        "odd_home": 2.6,
-        "odd_draw": 3.2,
-        "odd_away": 2.75
+        "odd_home": 2.65,
+        "odd_draw": 3.1,
+        "odd_away": 2.8
     },
     {
         "home_team": "Atalanta",
@@ -244,8 +244,8 @@
         "away_team": "RB Leipzig",
         "league_name": "Bundesliga",
         "odd_home": 1.28,
-        "odd_draw": 6.13,
-        "odd_away": 8.22
+        "odd_draw": 6.28,
+        "odd_away": 8.3
     },
     {
         "home_team": "Heidenheim",
@@ -301,7 +301,7 @@
         "league_name": "Bundesliga",
         "odd_home": 1.79,
         "odd_draw": 3.78,
-        "odd_away": 4.36
+        "odd_away": 4.31
     },
     {
         "home_team": "M'gladbach",
