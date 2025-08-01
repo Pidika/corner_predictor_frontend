@@ -84,7 +84,7 @@
         "away_team": "Vallecano",
         "league_name": "La Liga",
         "odd_home": 2.38,
-        "odd_draw": 3.2,
+        "odd_draw": 3.15,
         "odd_away": 3.2
     },
     {
@@ -92,8 +92,8 @@
         "away_team": "Oviedo",
         "league_name": "La Liga",
         "odd_home": 1.41,
-        "odd_draw": 4.96,
-        "odd_away": 9.6
+        "odd_draw": 5.0,
+        "odd_away": 9.35
     },
     {
         "home_team": "Alaves",
@@ -123,9 +123,9 @@
         "home_team": "Celta",
         "away_team": "Getafe",
         "league_name": "La Liga",
-        "odd_home": 1.62,
-        "odd_draw": 3.7,
-        "odd_away": 5.9
+        "odd_home": 1.64,
+        "odd_draw": 3.65,
+        "odd_away": 5.8
     },
     {
         "home_team": "Ath Bilbao",
@@ -133,7 +133,7 @@
         "league_name": "La Liga",
         "odd_home": 1.66,
         "odd_draw": 3.7,
-        "odd_away": 5.3
+        "odd_away": 5.4
     },
     {
         "home_team": "Espanol",
