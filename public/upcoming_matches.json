@@ -3,9 +3,9 @@
         "home_team": "Nott'm Forest",
         "away_team": "Chelsea",
         "league_name": "Premier League",
-        "odd_home": 3.45,
-        "odd_draw": 3.55,
-        "odd_away": 1.81
+        "odd_home": 3.5,
+        "odd_draw": 3.65,
+        "odd_away": 1.82
     },
     {
         "home_team": "Crystal Palace",
@@ -13,62 +13,62 @@
         "league_name": "Premier League",
         "odd_home": 2.05,
         "odd_draw": 3.2,
-        "odd_away": 3.15
+        "odd_away": 3.2
     },
     {
         "home_team": "Brighton",
         "away_team": "Newcastle",
         "league_name": "Premier League",
-        "odd_home": 2.5,
-        "odd_draw": 3.1,
-        "odd_away": 2.55
+        "odd_home": 2.55,
+        "odd_draw": 3.25,
+        "odd_away": 2.45
     },
     {
         "home_team": "Burnley",
         "away_team": "Leeds",
         "league_name": "Premier League",
-        "odd_home": 3.1,
-        "odd_draw": 3.1,
-        "odd_away": 2.1
+        "odd_home": 3.3,
+        "odd_draw": 3.15,
+        "odd_away": 2.05
     },
     {
         "home_team": "Man City",
         "away_team": "Everton",
         "league_name": "Premier League",
         "odd_home": 1.36,
-        "odd_draw": 4.8,
+        "odd_draw": 4.9,
         "odd_away": 7.7
     },
     {
         "home_team": "Sunderland",
         "away_team": "Wolves",
         "league_name": "Premier League",
-        "odd_home": 2.25,
-        "odd_draw": 2.9,
-        "odd_away": 2.95
+        "odd_home": 2.3,
+        "odd_draw": 2.95,
+        "odd_away": 3.0
     },
     {
         "home_team": "Fulham",
         "away_team": "Arsenal",
         "league_name": "Premier League",
-        "odd_home": 5.5,
-        "odd_draw": 3.95,
-        "odd_away": 1.46
+        "odd_home": 6.2,
+        "odd_draw": 4.0,
+        "odd_away": 1.43
     },
     {
         "home_team": "Tottenham",
         "away_team": "Aston Villa",
         "league_name": "Premier League",
-        "odd_home": 1.95,
-        "odd_draw": 3.45,
-        "odd_away": 3.15
+        "odd_home": 1.92,
+        "odd_draw": 3.4,
+        "odd_away": 3.3
     },
     {
         "home_team": "Liverpool",
         "away_team": "Man United",
         "league_name": "Premier League",
-        "odd_home": 1.6,
-        "odd_draw": 4.3,
+        "odd_home": 1.59,
+        "odd_draw": 4.4,
         "odd_away": 4.7
     },
     {
@@ -76,32 +76,32 @@
         "away_team": "Brentford",
         "league_name": "Premier League",
         "odd_home": 2.3,
-        "odd_draw": 3.25,
-        "odd_away": 2.65
+        "odd_draw": 3.2,
+        "odd_away": 2.7
     },
     {
         "home_team": "Leeds",
         "away_team": "West Ham",
         "league_name": "Premier League",
-        "odd_home": 2.1,
+        "odd_home": 2.09,
         "odd_draw": 3.71,
-        "odd_away": 3.69
+        "odd_away": 3.71
     },
     {
         "home_team": "Chelsea",
         "away_team": "Sunderland",
         "league_name": "Premier League",
-        "odd_home": 1.36,
+        "odd_home": 1.35,
         "odd_draw": 4.2,
-        "odd_away": 6.1
+        "odd_away": 6.2
     },
     {
         "home_team": "Newcastle",
         "away_team": "Fulham",
         "league_name": "Premier League",
-        "odd_home": 1.69,
-        "odd_draw": 4.18,
-        "odd_away": 5.46
+        "odd_home": 1.67,
+        "odd_draw": 4.24,
+        "odd_away": 5.51
     },
     {
         "home_team": "Man United",
@@ -141,7 +141,7 @@
         "league_name": "Premier League",
         "odd_home": 1.68,
         "odd_draw": 3.5,
-        "odd_away": 3.9
+        "odd_away": 3.85
     },
     {
         "home_team": "Wolves",
@@ -160,52 +160,44 @@
         "odd_away": 2.6
     },
     {
-        "home_team": "Oviedo",
-        "away_team": "Espanol",
-        "league_name": "La Liga",
-        "odd_home": 3.1,
-        "odd_draw": 3.21,
-        "odd_away": 2.62
-    },
-    {
         "home_team": "Sevilla",
         "away_team": "Mallorca",
         "league_name": "La Liga",
-        "odd_home": 1.93,
-        "odd_draw": 3.63,
-        "odd_away": 4.5
+        "odd_home": 1.92,
+        "odd_draw": 3.65,
+        "odd_away": 4.54
     },
     {
         "home_team": "Barcelona",
         "away_team": "Girona",
         "league_name": "La Liga",
-        "odd_home": 1.21,
-        "odd_draw": 8.45,
-        "odd_away": 14.1
+        "odd_home": 1.24,
+        "odd_draw": 7.6,
+        "odd_away": 12.6
     },
     {
         "home_team": "Villarreal",
         "away_team": "Betis",
         "league_name": "La Liga",
-        "odd_home": 1.99,
-        "odd_draw": 3.79,
-        "odd_away": 4.0
+        "odd_home": 1.97,
+        "odd_draw": 3.83,
+        "odd_away": 4.04
     },
     {
         "home_team": "Ath Madrid",
         "away_team": "Osasuna",
         "league_name": "La Liga",
         "odd_home": 1.39,
-        "odd_draw": 5.0,
-        "odd_away": 10.4
+        "odd_draw": 4.95,
+        "odd_away": 10.7
     },
     {
         "home_team": "Elche",
         "away_team": "Ath Bilbao",
         "league_name": "La Liga",
-        "odd_home": 3.63,
-        "odd_draw": 3.39,
-        "odd_away": 2.25
+        "odd_home": 3.75,
+        "odd_draw": 3.38,
+        "odd_away": 2.2
     },
     {
         "home_team": "Celta",
@@ -219,8 +211,8 @@
         "home_team": "Levante",
         "away_team": "Vallecano",
         "league_name": "La Liga",
-        "odd_home": 2.8,
-        "odd_draw": 3.3,
+        "odd_home": 2.75,
+        "odd_draw": 3.35,
         "odd_away": 2.48
     },
     {
@@ -229,7 +221,7 @@
         "league_name": "La Liga",
         "odd_home": 8.5,
         "odd_draw": 4.5,
-        "odd_away": 1.4
+        "odd_away": 1.41
     },
     {
         "home_team": "Alaves",
@@ -323,49 +315,49 @@
         "home_team": "Pisa",
         "away_team": "Verona",
         "league_name": "Serie A",
-        "odd_home": 2.31,
-        "odd_draw": 3.08,
-        "odd_away": 2.92
+        "odd_home": 2.45,
+        "odd_draw": 2.98,
+        "odd_away": 2.88
     },
     {
         "home_team": "Lecce",
         "away_team": "Sassuolo",
         "league_name": "Serie A",
-        "odd_home": 2.9,
-        "odd_draw": 3.1,
-        "odd_away": 2.31
+        "odd_home": 2.88,
+        "odd_draw": 3.05,
+        "odd_away": 2.4
     },
     {
         "home_team": "Torino",
         "away_team": "Napoli",
         "league_name": "Serie A",
-        "odd_home": 5.45,
-        "odd_draw": 3.45,
-        "odd_away": 1.75
+        "odd_home": 4.95,
+        "odd_draw": 3.5,
+        "odd_away": 1.8
     },
     {
         "home_team": "Roma",
         "away_team": "Inter",
         "league_name": "Serie A",
-        "odd_home": 3.05,
-        "odd_draw": 2.95,
-        "odd_away": 2.2
+        "odd_home": 3.25,
+        "odd_draw": 3.05,
+        "odd_away": 2.1
     },
     {
         "home_team": "Como",
         "away_team": "Juventus",
         "league_name": "Serie A",
-        "odd_home": 2.98,
-        "odd_draw": 3.2,
-        "odd_away": 2.48
+        "odd_home": 2.88,
+        "odd_draw": 3.3,
+        "odd_away": 2.52
     },
     {
         "home_team": "Cagliari",
         "away_team": "Bologna",
         "league_name": "Serie A",
-        "odd_home": 3.47,
-        "odd_draw": 3.2,
-        "odd_away": 2.0
+        "odd_home": 3.48,
+        "odd_draw": 3.17,
+        "odd_away": 2.05
     },
     {
         "home_team": "Genoa",
@@ -373,31 +365,31 @@
         "league_name": "Serie A",
         "odd_home": 1.97,
         "odd_draw": 2.95,
-        "odd_away": 3.65
+        "odd_away": 3.7
     },
     {
         "home_team": "Atalanta",
         "away_team": "Lazio",
         "league_name": "Serie A",
-        "odd_home": 1.7,
-        "odd_draw": 4.15,
-        "odd_away": 4.45
+        "odd_home": 1.75,
+        "odd_draw": 4.0,
+        "odd_away": 4.5
     },
     {
         "home_team": "Milan",
         "away_team": "Fiorentina",
         "league_name": "Serie A",
-        "odd_home": 1.46,
-        "odd_draw": 3.95,
-        "odd_away": 5.5
+        "odd_home": 1.44,
+        "odd_draw": 4.0,
+        "odd_away": 5.7
     },
     {
         "home_team": "Cremonese",
         "away_team": "Udinese",
         "league_name": "Serie A",
-        "odd_home": 2.8,
+        "odd_home": 2.85,
         "odd_draw": 3.05,
-        "odd_away": 2.3
+        "odd_away": 2.25
     },
     {
         "home_team": "Milan",
@@ -419,17 +411,17 @@
         "home_team": "Udinese",
         "away_team": "Lecce",
         "league_name": "Serie A",
-        "odd_home": 1.68,
-        "odd_draw": 3.35,
-        "odd_away": 4.4
+        "odd_home": 1.7,
+        "odd_draw": 3.43,
+        "odd_away": 4.5
     },
     {
         "home_team": "Napoli",
         "away_team": "Inter",
         "league_name": "Serie A",
-        "odd_home": 2.42,
-        "odd_draw": 3.1,
-        "odd_away": 2.62
+        "odd_home": 2.45,
+        "odd_draw": 3.15,
+        "odd_away": 2.68
     },
     {
         "home_team": "Cremonese",
@@ -480,68 +472,60 @@
         "odd_away": 2.35
     },
     {
-        "home_team": "Union Berlin",
-        "away_team": "M'gladbach",
-        "league_name": "Bundesliga",
-        "odd_home": 2.05,
-        "odd_draw": 3.5,
-        "odd_away": 3.2
-    },
-    {
         "home_team": "Heidenheim",
         "away_team": "Werder Bremen",
         "league_name": "Bundesliga",
         "odd_home": 2.75,
-        "odd_draw": 3.35,
+        "odd_draw": 3.4,
         "odd_away": 2.2
     },
     {
         "home_team": "FC Koln",
         "away_team": "Augsburg",
         "league_name": "Bundesliga",
-        "odd_home": 1.96,
-        "odd_draw": 3.85,
-        "odd_away": 3.4
+        "odd_home": 1.94,
+        "odd_draw": 3.9,
+        "odd_away": 3.45
     },
     {
         "home_team": "Mainz",
         "away_team": "Leverkusen",
         "league_name": "Bundesliga",
         "odd_home": 2.7,
-        "odd_draw": 3.25,
+        "odd_draw": 3.35,
         "odd_away": 2.25
     },
     {
         "home_team": "RB Leipzig",
         "away_team": "Hamburg",
         "league_name": "Bundesliga",
-        "odd_home": 1.4,
+        "odd_home": 1.42,
         "odd_draw": 5.25,
-        "odd_away": 7.25
+        "odd_away": 7.0
     },
     {
         "home_team": "Wolfsburg",
         "away_team": "Stuttgart",
         "league_name": "Bundesliga",
-        "odd_home": 2.7,
+        "odd_home": 2.6,
         "odd_draw": 3.6,
-        "odd_away": 2.55
+        "odd_away": 2.65
     },
     {
         "home_team": "Bayern Munich",
         "away_team": "Dortmund",
         "league_name": "Bundesliga",
-        "odd_home": 1.28,
-        "odd_draw": 5.4,
-        "odd_away": 6.6
+        "odd_home": 1.27,
+        "odd_draw": 5.5,
+        "odd_away": 7.0
     },
     {
         "home_team": "Freiburg",
         "away_team": "Ein Frankfurt",
         "league_name": "Bundesliga",
         "odd_home": 2.3,
-        "odd_draw": 3.45,
-        "odd_away": 2.5
+        "odd_draw": 3.4,
+        "odd_away": 2.55
     },
     {
         "home_team": "St Pauli",
@@ -579,9 +563,9 @@
         "home_team": "M'gladbach",
         "away_team": "Bayern Munich",
         "league_name": "Bundesliga",
-        "odd_home": 8.21,
-        "odd_draw": 6.26,
-        "odd_away": 1.28
+        "odd_home": 8.73,
+        "odd_draw": 6.49,
+        "odd_away": 1.26
     },
     {
         "home_team": "Ein Frankfurt",
@@ -605,7 +589,7 @@
         "league_name": "Bundesliga",
         "odd_home": 1.48,
         "odd_draw": 4.05,
-        "odd_away": 4.65
+        "odd_away": 4.6
     },
     {
         "home_team": "Leverkusen",
@@ -624,42 +608,34 @@
         "odd_away": 4.03
     },
     {
-        "home_team": "Paris SG",
-        "away_team": "Strasbourg",
-        "league_name": "Ligue 1",
-        "odd_home": 1.3,
-        "odd_draw": 5.8,
-        "odd_away": 7.8
-    },
-    {
         "home_team": "Nice",
         "away_team": "Lyon",
         "league_name": "Ligue 1",
-        "odd_home": 2.56,
-        "odd_draw": 3.62,
-        "odd_away": 2.86
+        "odd_home": 2.48,
+        "odd_draw": 3.63,
+        "odd_away": 2.96
     },
     {
         "home_team": "Angers",
         "away_team": "Monaco",
         "league_name": "Ligue 1",
-        "odd_home": 5.45,
-        "odd_draw": 4.33,
-        "odd_away": 1.66
+        "odd_home": 5.71,
+        "odd_draw": 4.38,
+        "odd_away": 1.63
     },
     {
         "home_team": "Marseille",
         "away_team": "Le Havre",
         "league_name": "Ligue 1",
-        "odd_home": 1.26,
-        "odd_draw": 5.7,
-        "odd_away": 9.0
+        "odd_home": 1.28,
+        "odd_draw": 5.6,
+        "odd_away": 8.45
     },
     {
         "home_team": "Lens",
         "away_team": "Paris FC",
         "league_name": "Ligue 1",
-        "odd_home": 1.85,
+        "odd_home": 1.82,
         "odd_draw": 3.9,
         "odd_away": 3.9
     },
@@ -667,7 +643,7 @@
         "home_team": "Rennes",
         "away_team": "Auxerre",
         "league_name": "Ligue 1",
-        "odd_home": 1.75,
+        "odd_home": 1.76,
         "odd_draw": 3.9,
         "odd_away": 4.75
     },
@@ -675,9 +651,9 @@
         "home_team": "Lorient",
         "away_team": "Brest",
         "league_name": "Ligue 1",
-        "odd_home": 2.52,
+        "odd_home": 2.4,
         "odd_draw": 3.45,
-        "odd_away": 2.7
+        "odd_away": 2.85
     },
     {
         "home_team": "Toulouse",
@@ -685,7 +661,7 @@
         "league_name": "Ligue 1",
         "odd_home": 1.52,
         "odd_draw": 4.0,
-        "odd_away": 5.2
+        "odd_away": 5.3
     },
     {
         "home_team": "Nantes",
@@ -707,9 +683,9 @@
         "home_team": "Brest",
         "away_team": "Paris SG",
         "league_name": "Ligue 1",
-        "odd_home": 6.09,
-        "odd_draw": 4.82,
-        "odd_away": 1.46
+        "odd_home": 6.05,
+        "odd_draw": 4.73,
+        "odd_away": 1.47
     },
     {
         "home_team": "Monaco",
@@ -747,9 +723,9 @@
         "home_team": "Auxerre",
         "away_team": "Le Havre",
         "league_name": "Ligue 1",
-        "odd_home": 2.25,
-        "odd_draw": 3.43,
-        "odd_away": 3.19
+        "odd_home": 2.28,
+        "odd_draw": 3.34,
+        "odd_away": 3.21
     },
     {
         "home_team": "Rennes",
@@ -763,8 +739,8 @@
         "home_team": "Lyon",
         "away_team": "Strasbourg",
         "league_name": "Ligue 1",
-        "odd_home": 1.87,
-        "odd_draw": 3.74,
-        "odd_away": 4.01
+        "odd_home": 1.98,
+        "odd_draw": 3.63,
+        "odd_away": 3.69
     }
 ]
